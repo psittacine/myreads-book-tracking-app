@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Book extends React.Component {
   render() {
     return (
-                  {/* // START book */}
+                  // START book
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -35,7 +35,7 @@ class Book extends React.Component {
                       <div className="book-authors">Harper Lee</div>
                     </div>
                   </li>
-                  {/* // END book */}
+                  // END book
     );
   }
 }
