@@ -10,10 +10,15 @@ class MainPage extends React.Component {
         </div>
         <div className="list-books-content">
           <div>
+
+
+            {/* // START bookshelf - Currently Reading */}
             <div className="bookshelf">
               <h2 className="bookshelf-title">Currently Reading</h2>
               <div className="bookshelf-books">
                 <ol className="books-grid">
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -44,6 +49,9 @@ class MainPage extends React.Component {
                       <div className="book-authors">Harper Lee</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -74,13 +82,21 @@ class MainPage extends React.Component {
                       <div className="book-authors">Orson Scott Card</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
                 </ol>
               </div>
             </div>
+            {/* // END bookshelf - Currently Reading */}
+
+
+            {/* // START bookshelf - Want to Read */}
             <div className="bookshelf">
               <h2 className="bookshelf-title">Want to Read</h2>
               <div className="bookshelf-books">
                 <ol className="books-grid">
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -111,6 +127,9 @@ class MainPage extends React.Component {
                       <div className="book-authors">David McCullough</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -143,13 +162,21 @@ class MainPage extends React.Component {
                       <div className="book-authors">J.K. Rowling</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
                 </ol>
               </div>
             </div>
+            {/* // END bookshelf - Want to Read */}
+
+
+            {/* // START bookshelf - Read */}
             <div className="bookshelf">
               <h2 className="bookshelf-title">Read</h2>
               <div className="bookshelf-books">
                 <ol className="books-grid">
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -180,6 +207,9 @@ class MainPage extends React.Component {
                       <div className="book-authors">J.R.R. Tolkien</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -212,6 +242,9 @@ class MainPage extends React.Component {
                       <div className="book-authors">Seuss</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
+                  {/* // START book */}
                   <li>
                     <div className="book">
                       <div className="book-top">
@@ -244,9 +277,15 @@ class MainPage extends React.Component {
                       <div className="book-authors">Mark Twain</div>
                     </div>
                   </li>
+                  {/* // END book */}
+
+
                 </ol>
               </div>
             </div>
+            {/* // END bookshelf - Read */}
+
+
           </div>
         </div>
         <div className="open-search">
