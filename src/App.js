@@ -45,6 +45,7 @@ class BooksApp extends React.Component {
           </div>
           // END copy to SearchPage.js
         ) : (
+          // START copy to MainPage.js
           <div className="list-books">
             <div className="list-books-title">
               <h1>MyReads</h1>
@@ -204,6 +205,7 @@ class BooksApp extends React.Component {
               <a onClick={() => this.setState({ showSearchPage: true })}>Add a book</a>
             </div>
           </div>
+          // END copy to MainPage.js
         )}
       </div>
     )
