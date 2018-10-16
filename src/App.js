@@ -22,6 +22,7 @@ class BooksApp extends React.Component {
     return (
       <div className="app">
         {this.state.showSearchPage ? (
+          // START copy to SearchPage.js
           <div className="search-books">
             <div className="search-books-bar">
               <a className="close-search" onClick={() => this.setState({ showSearchPage: false })}>Close</a>
@@ -42,6 +43,7 @@ class BooksApp extends React.Component {
               <ol className="books-grid"></ol>
             </div>
           </div>
+          // END copy to SearchPage.js
         ) : (
           <div className="list-books">
             <div className="list-books-title">
