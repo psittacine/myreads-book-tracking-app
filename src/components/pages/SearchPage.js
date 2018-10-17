@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import * as BooksAPI from "../../BooksAPI";
-
 import Book from "../Book";
 
 class SearchPage extends React.Component {
@@ -16,7 +15,6 @@ class SearchPage extends React.Component {
 
 	componentDidMount() {
 		BooksAPI.getAll().then(response => {
-			console.log(response);
 			this.setState({ books: response });
 		});
 	}
@@ -30,16 +28,12 @@ class SearchPage extends React.Component {
 			return this.setState({ results: [] });
 		}
 		BooksAPI.search(this.state.query.trim()).then(response => {
-			console.log(response);
 			if (response.error) {
 				return this.setState({ results: [] });
 			} else {
 				response.forEach(bk => {
 					let fil = this.state.books.filter(Bk => Bk.id === bk.id);
-					console.log(fil);
-					// bk.shelf = fil[0] ? fil[0].shelf : null;
 					if (fil[0]) {
-						// console.log('match');
 						bk.shelf = fil[0].shelf;
 					}
 				});

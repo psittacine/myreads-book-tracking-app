@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import * as BooksAPI from "../../BooksAPI";
-
 import Shelf from "../Shelf";
 
 class MainPage extends React.Component {
@@ -14,7 +13,6 @@ class MainPage extends React.Component {
 
 	componentDidMount() {
 		BooksAPI.getAll().then(response => {
-			console.log(response);
 			this.setState({ books: response });
 		});
 	}

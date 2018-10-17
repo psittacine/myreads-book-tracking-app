@@ -1,14 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import * as BooksAPI from "../BooksAPI";
 
 class Book extends React.Component {
-	/*
-    componentDidMount() {
-		console.log(this);
-	}
- */
-
 	render() {
 		return (
 			<li>
