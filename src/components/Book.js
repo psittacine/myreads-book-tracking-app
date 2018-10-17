@@ -45,7 +45,8 @@ class Book extends React.Component {
 						{this.props.book.title || "Untitled"}
 					</div>
 					<div className="book-authors">
-						{this.props.book.authors[0] || "Anonymous"}
+						{(this.props.book.authors && this.props.book.authors[0]) ||
+							"Anonymous"}
 					</div>
 				</div>
 			</li>
