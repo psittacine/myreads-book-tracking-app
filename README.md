@@ -24,6 +24,7 @@ Create a bookshelf app that allows you to select and categorize books you have r
 * [prop-types](https://github.com/facebook/prop-types) Runtime type checking for React props and similar objects.
 * [react](https://github.com/facebook/react) React is a JavaScript library for building user interfaces.
 * [react-dom](https://github.com/facebook/react) React package for working with the DOM.
+* [react-router-dom](https://github.com/ReactTraining/react-router) DOM bindings for React Router.
 
 #### Dev Dependencies
 * [react-scripts](https://github.com/facebook/create-react-app) Configuration and scripts for Create React App.
