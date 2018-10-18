@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { Route } from "react-router-dom";
-import MainPage from "./components/pages/MainPage";
-import SearchPage from "./components/pages/SearchPage";
+import MainPage from "./components/MainPage";
+import SearchPage from "./components/SearchPage";
 
 class BooksApp extends React.Component {
 	render() {

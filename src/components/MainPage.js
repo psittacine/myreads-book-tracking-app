@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import * as BooksAPI from "../../BooksAPI";
-import Shelf from "../Shelf";
+import * as BooksAPI from "../BooksAPI";
+import Shelf from "./Shelf";
 
 class MainPage extends React.Component {
 	constructor(props) {
