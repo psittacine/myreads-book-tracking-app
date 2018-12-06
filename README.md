@@ -2,7 +2,7 @@
 
 ## Project for Udacity's [Front-End Web Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 
-:link: [View Live Project](https://psittacine.github.io/myreads-book-tracking-app/)
+:link: [View Live Project](https://myreads-book-tracking-app-ll.netlify.com/)
 
 #### Project Overview
 
