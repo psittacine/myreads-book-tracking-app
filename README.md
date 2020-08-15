@@ -23,6 +23,7 @@ Create a bookshelf app that allows you to select and categorize books you have r
 #### Dependencies
 * [prop-types](https://github.com/facebook/prop-types) Runtime type checking for React props and similar objects.
 * [react](https://github.com/facebook/react) React is a JavaScript library for building user interfaces.
+* [react-debounce-input](https://www.npmjs.com/package/react-debounce-input) React component that renders an Input, Textarea or other element with debounced onChange.
 * [react-dom](https://github.com/facebook/react) React package for working with the DOM.
 * [react-router-dom](https://github.com/ReactTraining/react-router) DOM bindings for React Router.
 
