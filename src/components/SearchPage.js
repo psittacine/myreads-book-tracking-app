@@ -24,7 +24,7 @@ class SearchPage extends React.Component {
 	};
 
 	submitSearch() {
-		if (this.state.query === "" || this.state.query === undefined) {
+		if (this.state.query.trim() === "" || this.state.query === undefined) {
 			return this.setState({ results: [] });
 		}
 		BooksAPI.search(this.state.query.trim()).then(response => {
