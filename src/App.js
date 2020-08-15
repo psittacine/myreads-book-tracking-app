@@ -11,4 +11,4 @@ const BooksApp = () => (
 	</div>
 )
 
-export default BooksApp
+export default BooksApp;

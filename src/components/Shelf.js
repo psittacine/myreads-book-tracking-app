@@ -14,4 +14,4 @@ const Shelf = (props) => (
 	</div>
 )
 
-export default Shelf
+export default Shelf;

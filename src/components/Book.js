@@ -42,4 +42,4 @@ const Book = (props) => (
 	</li>
 )
 
-export default Book
+export default Book;
