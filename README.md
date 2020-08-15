@@ -1,6 +1,8 @@
 # MyReads:  Book Tracking App
 
-## Project for Udacity's [Front-End Web Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+## v1 (2018):  Project for Udacity's [Front-End Web Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+
+## v2 (2020):  Project for Udacity's [React Nanodegree Program](https://www.udacity.com/course/react-nanodegree--nd019)
 
 :link: [View Live Project](https://myreads-book-tracking-app-ll.netlify.com/)
 
@@ -23,6 +25,7 @@ Create a bookshelf app that allows you to select and categorize books you have r
 #### Dependencies
 * [prop-types](https://github.com/facebook/prop-types) Runtime type checking for React props and similar objects.
 * [react](https://github.com/facebook/react) React is a JavaScript library for building user interfaces.
+* [react-debounce-input](https://github.com/nkbt/react-debounce-input) React component that renders Input with debounced onChange.
 * [react-dom](https://github.com/facebook/react) React package for working with the DOM.
 * [react-router-dom](https://github.com/ReactTraining/react-router) DOM bindings for React Router.
 
